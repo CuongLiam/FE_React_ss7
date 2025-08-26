@@ -5,6 +5,7 @@ abstract class Account{
     isLogin : boolean;
     role : string;
 
+
     constructor(id : string, userName : string, password : string, isLogin : boolean, role : string){
         this.id = id;
         this.userName = userName;
